@@ -1,13 +1,19 @@
 body {
   margin: 0;
   padding: 0;
+    height: 100vh;
+    background-color: #1A1B16;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #main {
-  height: 100vh;
-  display: flex;
-  justify-content: space-around;
 
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
 }
 #AT {
   width: 100%;
@@ -15,12 +21,16 @@ body {
   z-index: -1;
   position: absolute;
 }
-h1 {
+h1, .icons{
   color: #fff;
+}
+
+h1 {
   font-family: 'Merriweather', Arial, sans-serif;
 }
-.icons {
-  color: #fff;
+#five, #twentyfive {
+  font-size: 2.5em;
+  opacity: 1 !important;
 }
 button {
   border: none;
@@ -31,4 +41,19 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.timer{
+  text-align:center;
+  border: 2px solid white;
+  border-radius:100%;
+  height: 10em;
+  width:10em;
+  background-color:#637A42;
+  opacity: .8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.material-icons {
+  font-size: 3.5em !important;
 }
